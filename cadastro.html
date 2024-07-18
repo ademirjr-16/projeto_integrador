@@ -1,84 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Cadastro</title>
-   </head>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastro</title>
+</head>
+
+<body>
+   <h1>Projeto Integrador</h1>
+
    <body>
-      <h1>Projeto Integrador</h1>
-      <body>
-         <header>
-            <a href="/index.html">Logo</a>
-            <nav>
-               <ul>
-                  <li><a href="/index.html">Home</a></li>
-                  <li><a href="/produtos.html">Produtos</a></li>
-                  <li><a href="/contato.html">Contatos</a></li>
-                  <li><a href="/sobre_nos.html">Sobre</a></li>
-               </ul>
-            </nav>
-            <a href="/login.html">
+      <header>
+         <a href="/index.html">Logo</a>
+         <nav>
+            <ul>
+               <li><a href="/index.html">Home</a></li>
+               <li><a href="/produtos.html">Produtos</a></li>
+               <li><a href="/contato.html">Contatos</a></li>
+               <li><a href="/sobre_nos.html">Sobre</a></li>
+            </ul>
+         </nav>
+         <a href="/login.html">
             <button>Login</button>
-            </a>
-         </header>
-         <main>
-            <h2>Cadastro</h2>
-            <div id="cadastro">
-               <form action="" method="post">
-                  <label for="nome">Nome:</label>
-                  <input type="text" id="nome" name="nome" placeholder="Digite seu Nome" required>
-                  <br>
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" placeholder="Digite seu email" required>
-                  <br>
-                  <label for="senha">Senha:</label>
-                  <input type="password" id="senha" name="senha" placeholder="Digite sua Senha" required>
-                  <br>
-                  <label for="senha">Confirmar Senha:</label>
-                  <input type="password" id="confirmaSenha" name="confirmaSenha" placeholder="Confirme sua senha" required>
-                  <br>
-                  <label for="cep">CEP:</label>
-                  <input type="text" id="cep" name="cep" maxlength="9" placeholder="Digite seu CEP" required>
-                  <br>
-                  <label for="rua">Rua: </label>
-                  <input type="text" id="rua" name="rua" placeholder="Informe a sua rua">
-                  <label for="numero">Nº: </label>
-                  <input type="number" id="numero" name="numero" placeholder="Informe o número">
-                  <br>
-                  <label for="cidade">Bairro:</label>
-                  <input type="text" id="bairro" name="bairro" placeholder="Informe a seu bairro">
-                  <label for="bairro">Cidade:</label>
-                  <input type="text" id="cidade" name="Cidade" placeholder="Informe a sua cidade">
-                  <br>
-                  <button type="reset">Limpar formulário</button>
-                  <button type="submit">Enviar</button>
-               </form>
-            </div>
-         </main>
-         <footer>
-            <div>
-               <h3>Localização:</h3>
-               <p>Avenida: </p>
-               <p>Bairro: </p>
-               <p>Cidade: </p>
-               <p>Cep: </p>
-               <p>Telefone:</p>
-               <p>Horário de Funcionamento:</p>
-            </div>
-            <div>
-               <h3>Formas de Pagamento:</h3>
-               <img src="./img/bandeiras-img.webp" alt="">
-            </div>
-            <div>
-               <h3>Redes Sociais</h3>
-               <ul>
-                  <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
-                  <img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/>
-                  <img width="48" height="48" src="https://img.icons8.com/ios-filled/50/tiktok--v1.png" alt="tiktok--v1"/>
-                  <img width="48" height="48" src="https://img.icons8.com/ios-filled/50/twitterx--v2.png" alt="twitterx--v2"/>
-               </ul>
-            </div>
-         </footer>
+         </a>
+      </header>
+      <main>
+         <h2>Cadastro</h2>
+         <div id="cadastro">
+            <form action="" method="post">
+               <label for="nome">Nome:</label>
+               <input type="text" id="nome" name="nome" placeholder="Digite seu Nome" required>
+               <br>
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+               <br>
+               <label for="senha">Senha:</label>
+               <input type="password" id="senha" name="senha" placeholder="Digite sua Senha" required>
+               <br>
+               <label for="senha">Confirmar Senha:</label>
+               <input type="password" id="confirmaSenha" name="confirmaSenha" placeholder="Confirme sua senha" required>
+               <br>
+               <label for="cep">CEP:</label>
+               <input type="text" id="cep" name="cep" maxlength="9" placeholder="Digite seu CEP" required>
+               <br>
+               <label for="rua">Rua: </label>
+               <input type="text" id="rua" name="rua" placeholder="Informe a sua rua">
+               <label for="numero">Nº: </label>
+               <input type="number" id="numero" name="numero" placeholder="Informe o número">
+               <br>
+               <label for="cidade">Bairro:</label>
+               <input type="text" id="bairro" name="bairro" placeholder="Informe a seu bairro">
+               <label for="bairro">Cidade:</label>
+               <input type="text" id="cidade" name="Cidade" placeholder="Informe a sua cidade">
+               <br>
+               <button type="reset">Limpar formulário</button>
+               <button type="submit">Enviar</button>
+            </form>
+         </div>
+      </main>
+      <footer>
+         <div>
+            <h3>Localização:</h3>
+            <p>Avenida: </p>
+            <p>Bairro: </p>
+            <p>Cidade: </p>
+            <p>Cep: </p>
+            <p>Telefone:</p>
+            <p>Horário de Funcionamento:</p>
+         </div>
+         <div>
+            <h3>Formas de Pagamento:</h3>
+            <img src="./img/bandeiras-img.webp" alt="">
+         </div>
+         <div>
+            <h3>Redes Sociais</h3>
+            <ul>
+               <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png"
+                  alt="instagram-new" />
+               <img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new" />
+               <img width="48" height="48" src="https://img.icons8.com/ios-filled/50/tiktok--v1.png" alt="tiktok--v1" />
+               <img width="48" height="48" src="https://img.icons8.com/ios-filled/50/twitterx--v2.png"
+                  alt="twitterx--v2" />
+            </ul>
+         </div>
+      </footer>
    </body>
+
 </html>
