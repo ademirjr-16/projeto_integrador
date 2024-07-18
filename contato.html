@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Projeto</title>
+      <title>Contato</title>
    </head>
    <body>
       <header>
@@ -21,7 +21,31 @@
          </a>
       </header>
       <main>
-      </main>
+        <h1>Como podemos ajudar?</h1>
+        <section>
+            <form>
+               <label for="nome">Nome: </label><br>
+               <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+               <label for="nome">Telefone: </label><br>
+               <input type="text" id="telefone" name="telefone" placeholder="Telefone com DDD" required><br><br>
+               <label for="email">Email: </label><br>
+               <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+               <label for="assunto">Quero falar sobre:</label><br>
+               <select id="assunto" name="Assunto">
+                    <option>Selecione um assunto...</option>
+                    <option value="entregas">Entregas</option>
+                    <option value="produtos">Produtos</option>
+                    <option value="duvidas">Dúvidas</option>
+                    <option value="trocas/devoluções">Trocas/Devoluções</option>
+                    <option value="outros">Outros</option>
+               </select><br><br>
+               <label for="mensagem">Escreva sua mensagem:</label><br>
+               <textarea id="mensagem" name="mensagem" rows="5" cols="30" placeholder="Digite sua mensagem" required></textarea><br><br>
+               <button type="reset">Limpar</button> 
+               <button type="submit">Enviar</button>               
+            </form>
+        </section>
+    </main>
       <footer>
          <div>
             <h3>Localização:</h3>
