@@ -8,10 +8,11 @@ footer {
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
     padding-bottom: 1.3rem;
+    gap: 1rem;
 }
 .container-desc {
     width: 400px;
-    min-width: 240px;
+    min-width: 200px;
 }.container-desc h3{
     font-family: "Montserrat", sans-serif;
 }.container-desc p {

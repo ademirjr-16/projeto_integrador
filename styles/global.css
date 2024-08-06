@@ -8,6 +8,7 @@ li {
     cursor: pointer;
 } a {
     text-decoration: none;
+    color: #fff;
 } i {
     cursor: pointer;
 }
