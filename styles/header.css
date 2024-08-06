@@ -1,24 +1,13 @@
-.img-logo {
-    width: 100px;
-}
-
-
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2rem;
-    border-bottom: 1px solid #ccc;
-}.nav-items {
-    display: flex;
-    gap: .8rem;
-    font-size: 1rem;
-}a {
-    color: #222;
-}.nav-item:hover {
-    color: #ee7829;
+    padding: 0.3rem 3rem 0 3rem;
+    max-height: 80px;
+    border-bottom: 1px solid #707070;
+}.img-logo {
+    width: 100px;
 }
-
 .container-details {
     display: flex;
     align-items: center;
@@ -34,13 +23,43 @@
     font-size: .9rem;
     width: 100%;
 }::placeholder {
-    color: #ee7829;
+    color: #546022;
     font-weight: 600;
+}:focus {
+    outline: none;
 }
 i {
     font-size: 1.3rem;
 }.search-icon {
     font-size: 1rem;
 }.icon-cart {
-    color: #ee7829;
+    color: #546022;
+}
+.sub-header {
+    background-color: #546022;
+    padding: 0 3rem; 
+}.nav-sub-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: .5rem 2rem;
+    gap: .5rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.container-image {
+    background-image: url("/img/photo-café.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position-y: -130px;
+    min-width: 1000px;
+}.description {
+    padding: 1rem;
+    letter-spacing: 1px;
+}.description p {
+    width: 500px;
+    margin-top: 2rem;
 }

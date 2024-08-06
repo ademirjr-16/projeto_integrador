@@ -17,24 +17,17 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css">
   </head>
   <body>
     <header>
       <div class="header-container">
-        <nav>
-          <ul class="nav-items">
-            <li><a class="nav-item" href="">Sobre</a></li>
-            <li><a class="nav-item" href="">Login</a></li>
-            <li><a class="nav-item" href="">Cadastro</a></li>
-            <li><a class="nav-item" href="">Produtos</a></li>
-            <li><a class="nav-item" href="">Contato</a></li>
-          </ul>
-        </nav>
-        <a href="index.html"
-          ><img class="img-logo" src="img/logo.png" alt=""
-        /></a>
+        <a href="index.html"><img class="img-logo" src="img/logo-editada.png" alt=""/></a>
         <div class="container-details">
           <div class="form">
             <input type="text" placeholder="Search" />
@@ -42,6 +35,27 @@
           </div>
           <i class="fa-regular fa-user"></i>
           <i class="fa-solid fa-cart-shopping icon-cart"></i>
+        </div>
+      </div>
+      <div class="sub-header">
+        <nav>
+          <ul class="nav-sub-items">
+            <li>Sobre</li>
+            <li>Contato</li>
+            <li>Produtos</li>
+            <li>Cadastro</li>
+            <li>Login</li>
+            <li>Blog</li>
+            <li>Lojas</li>
+          </ul>
+        </nav>
+      </div>  
+      <div class="container-image">
+        <img src="" alt="">
+        <div class="description">
+          <h2>Produto Mais Vendido</h2>
+          <p>O café mais vendido na nossa loja de produtos naturais é o "Café Orgânico Premium". Cultivado nas altitudes elevadas das montanhas, este café é 100% orgânico, livre de pesticidas e aditivos químicos.</p>
+          <p>Com uma torra média, o "Café Orgânico Premium" oferece um sabor equilibrado e notas suaves de chocolate e caramelo, proporcionando uma experiência rica e agradável a cada xícara. </p>
         </div>
       </div>
     </header>
@@ -101,48 +115,29 @@
       </section>
     </main>
     <footer>
-      <div>
-        <h3>Localização:</h3>
-        <p>Avenida:</p>
-        <p>Bairro:</p>
-        <p>Cidade:</p>
-        <p>Cep:</p>
-        <p>Telefone:</p>
-        <p>Horário de Funcionamento:</p>
+     <div class="container-footer">
+      <div class="container-desc">
+        <h3>Um pouco de nós!</h3>
+        <p>Somos uma empresa com foco na qualidade dos produtos, oferecendo ingredientes naturais e orgânicos.</p>
       </div>
-      <div>
-        <h3>Formas de Pagamento:</h3>
-        <img src="./img/bandeiras-img.webp" alt="" />
+      <div class="container-desc">
+        <h3>Nossos Produtos</h3>
+        <p>Nossos parceiros são selecionados com rigor para garantir a excelência em cada produto e entrega</p>
       </div>
-      <div>
-        <h3>Redes Sociais</h3>
-        <ul>
-          <img
-            width="48"
-            height="48"
-            src="https://img.icons8.com/fluency/48/instagram-new.png"
-            alt="instagram-new"
-          />
-          <img
-            width="48"
-            height="48"
-            src="https://img.icons8.com/color/48/facebook-new.png"
-            alt="facebook-new"
-          />
-          <img
-            width="48"
-            height="48"
-            src="https://img.icons8.com/ios-filled/50/tiktok--v1.png"
-            alt="tiktok--v1"
-          />
-          <img
-            width="48"
-            height="48"
-            src="https://img.icons8.com/ios-filled/50/twitterx--v2.png"
-            alt="twitterx--v2"
-          />
-        </ul>
+      <div class="container-desc">
+        <h3>Nosso compromisso</h3>
+        <p>Nosso compromisso é com a saúde e bem-estar dos nossos clientes, garantindo satisfação e confiança em cada compra</p>
       </div>
+     </div>
+     <div class="container-details">
+     <a href="index.html"><h2><span>Eco</span>Essence</h2></a>
+      <div class="social">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+     </div>
+      
     </footer>
   </body>
 </html>
