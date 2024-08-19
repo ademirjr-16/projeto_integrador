@@ -1,38 +1,74 @@
-footer {
-    padding: 2rem 5rem;
-    background-color: #546022;
-    text-align: start;
-    color: #fff;
-}.container-footer {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 1.3rem;
-    gap: 1rem;
-}
-.container-desc {
-    width: 400px;
-    min-width: 200px;
-}.container-desc h3{
-    font-family: "Montserrat", sans-serif;
-}.container-desc p {
-    color: #ccc;
-    letter-spacing: .8px;
+:root {
+    --dark-olive-green: #5F6F52;
+    --cornsilk: #FEFAE0;
+    --alloy-orange: #C4661F;
+    --lemon-meringue: #F9EBC7;
+    --camel: #B99470;
+    --laurel-green: #A9B388;
+    --russet: #783D19;
 }
 
-.container-details {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1.3rem;
-}.container-details span {
-    color: rgb(255, 153, 0);
-}.container-details h2 {
-    color: #b4dd10;
-}
-.social {
-    display: flex;
-    gap: 1.4rem;
-}.social i {
-    font-size: 1.4rem;
+
+
+.footer {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 16px;
 }
 
+.footer .footer-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Ajuste para 4 colunas */
+    gap: 16px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.footer .footer-section div {
+    margin-bottom: 16px;
+}
+
+.footer h3 {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.footer img {
+    margin-bottom: 8px;
+}
+
+.footer .payment-methods img,
+.footer .delivery-methods img {
+    width: 50px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.footer .delivery-methods {
+    display: flex;
+    align-items: center;
+}
+
+.footer .delivery-methods img.delivery-truck {
+    width: 30px;
+    height: 30px;
+}
+
+.footer .text-center {
+    text-align: center;
+    font-size: 12px;
+    color: #888888;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+
+.map-container {
+    width: 100%;
+    height: 200px; 
+}

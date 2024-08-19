@@ -23,116 +23,257 @@
       <link rel="stylesheet" href="styles/global.css" />
       <link rel="stylesheet" href="styles/header.css" />
       <link rel="stylesheet" href="styles/footer.css">
+      <link rel="stylesheet" href="/styles/home.css">
    </head>
    <body>
       <header>
-         <div class="header-container">
-            <a href="index.html"><img class="img-logo" src="img/logo-editada.png" alt=""/></a>
-            <div class="container-details">
-               <div class="form">
-                  <input type="text" placeholder="Search" />
-                  <i class="fa-solid fa-magnifying-glass search-icon"></i>
-               </div>
-               <i class="fa-regular fa-user"></i>
-               <i class="fa-solid fa-cart-shopping icon-cart"></i>
-            </div>
-         </div>
-         <div class="sub-header">
-            <nav>
-               <ul class="nav-sub-items">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="sobre_nos.html">Sobre</a></li>
-                  <li><a href="contato.html">Contato</a></li>
-                  <li><a href="produtos.html">Produtos</a></li>
-                  <li><a href="login.html">Login</a></li>
-                  <li>Lojas</li>
-               </ul>
-            </nav>
-         </div>
-         <div class="container-image">
-            <img src="" alt="">
-            <div class="description">
-               <h2>Produto Mais Vendido</h2>
-               <p>O café mais vendido na nossa loja de produtos naturais é o "Café Orgânico Premium". Cultivado nas altitudes elevadas das montanhas, este café é 100% orgânico, livre de pesticidas e aditivos químicos.</p>
-               <p>Com uma torra média, o "Café Orgânico Premium" oferece um sabor equilibrado e notas suaves de chocolate e caramelo, proporcionando uma experiência rica e agradável a cada xícara. </p>
-            </div>
-         </div>
+      
+          <div id="logo">
+              <img src="/img/logo-editada.png" alt="EcoEssence -logo">
+              <span>EcoEssence</span>
+          </div>
+  
+  
+  
+          
+              <div id="search-box">
+                  <input type="text" placeholder="Search">
+              </div>
+          
       </header>
-      <main>
-         <h2>Destaques</h2>
-         <section>
-            <div class="destaque1">
-               <div class="destaque">
-                  <img src="img/destaque1.jpg" alt="" />
-               </div>
-            </div>
-         </section>
-         <section>
-            <div class="destaque">
-               <div class="produtos">
-                  <img src="img/destaque2.jpg" alt="" />
-               </div>
-            </div>
-         </section>
-         <section>
-            <div class="destaque3">
-               <div class="destaque">
-                  <img src="img/destaque3.jpg" alt="" />
-               </div>
-            </div>
-         </section>
-         <h2>Produtos Mais Vendidos</h2>
-         <section class="produtosMaisVendido">
-            <div class="produtosVendidos">
-               <div class="produto">
-                  <img src="img/extratoCurcuma-img.webp" alt="" />
-                  <p>EXTRATO DE CÚRCUMA - 60 CÁPSULAS DE 300MG</p>
-                  <p>R$ 43,20</p>
-               </div>
-               <div class="produto">
-                  <img src="img/vitaminab12-img.png" alt="" />
-                  <p>Vitamina B12 Metilcobalamina 400mg - 60 Cápsulas Vegana</p>
-                  <p>R$ 34,88</p>
-               </div>
-               <div class="produto">
-                  <img src="img/vitaminad3-img.png" alt="" />
-                  <p>
-                     Vitamina D3 2.000UI Sistema Imunológico 60 Comprimidos Nutralin
-                  </p>
-                  <p>R$ 27,90</p>
-               </div>
-               <div class="produto">
-                  <img src="img/magnesio-img.webp" alt="" />
-                  <p>MAGNESIO DIMALATO - 120 CÁPSULAS DE 600MG</p>
-                  <p>R$ 48,80</p>
-               </div>
-            </div>
-         </section>
-      </main>
-      <footer>
-         <div class="container-footer">
-            <div class="container-desc">
-               <h3>Um pouco de nós!</h3>
-               <p>Somos uma empresa com foco na qualidade dos produtos, oferecendo ingredientes naturais e orgânicos.</p>
-            </div>
-            <div class="container-desc">
-               <h3>Nossos Produtos</h3>
-               <p>Nossos parceiros são selecionados com rigor para garantir a excelência em cada produto e entrega</p>
-            </div>
-            <div class="container-desc">
-               <h3>Nosso compromisso</h3>
-               <p>Nosso compromisso é com a saúde e bem-estar dos nossos clientes, garantindo satisfação e confiança em cada compra</p>
-            </div>
-         </div>
-         <div class="container-details">
-         <a href="index.html">
-            <h2><span>Eco</span>Essence</h2>
-         </a>
-         <div class="social">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-         </div>
+  
+      <nav id="sub-header">
+          <ul>
+              <li>
+                  <a href="/index.html">Home</a>
+                  <div class="dropdown-content"></div>
+              </li>
+              <li>
+                  <a href="/produtos.html">Produtos</a>
+                  <div class="dropdown-content"></div>
+              </li>
+              
+             
+              <li>
+                  <a href="/contato.html">Contato</a>
+              </li>
+              <li>
+                  <a href="/sobre_nos.html">Sobre nós</a>
+              </li>
+              <li>
+                  <a href="/cadastro.html">Cadastre-se</a>
+              </li>
+              <li>
+               <a href="/login.html">Login</a>
+              </li>
+  
+          </ul>
+      </nav>
+  
+  
+      <div class="categoria-header">
+          <h1>COMPRE POR CATEGORIAS</h1>
+      </div>
+  
+      <div class="categorias">
+         
+          <div class="card laranja">
+              <img src="/img/produto1.webp" alt="masala" class="category-image">
+              <h2 class="laranja-texto">Masala</h2>
+          </div>
+         
+          <div class="card vermelho">
+              <img src="/img/produto2.avif" alt="Cereais e legumes" class="category-image">
+              <h2 class="vermelho-texto">Cereais e Legumes</h2>
+          </div>
+          
+          <div class="card amarelo">
+              <img src="/img/produto3.jpg" alt="Graos e farinhas" class="category-image">
+              <h2 class="amarelo-texto">Grãos e Farinhas</h2>
+          </div>
+         
+          <div class="card marrom">
+              <img src="/img/produto4" alt="sais e adoçantes" class="category-image">
+              <h2 class="marrom-texto">Sais e Adoçantes</h2>
+          </div>
+          
+          <div class="card amarelo">
+              <img src="/img/produto5" alt="óleos comestiveis" class="category-image">
+              <h2 class="amarelo-texto">Óleos Comestiveis</h2>
+          </div>
+          <!-- Super Foods -->
+          <div class="card laranja">
+              <img src="/img/produto7.avif" alt="frutas frescas" class="category-image">
+              <h2 class="category-title orange-text">Frutas frescas</h2>
+          </div>
+      
+      </div>
+  
+  
+  
+  
+      <div class="container">
+         
+          <h1 class="header-title">Mais vendidos</h1>
+  
+  
+          <div class="main-content">
+              
+              <div class="lado-esquerdo">
+                  <div class="image-container">
+                      <img src="/img/produtoSete.avif" alt="sacola-de-papel" class="tamanho-image">
+                      <button class="buy-button">Comprar</button>
+                  </div>
+              </div>
+  
+              <div class="lado-direito">
+                 
+                  <div class="produto-card">
+                      <img src="/img/produtoUm.avif" alt="morango com leite no ar." class="produto-image">
+                      <span class="produto-nome">Produto A</span>
+                      <span class="produto-categoria">Frutas</span>
+                      <span class="produto-preco">R$ 49,99</span>
+                      <span class="produto-pagamento">ou 2x de R$ 39,99 sem juros</span>
+                  </div>
+  
+            
+                  <div class="produto-card">
+                      <img src="/img/produtoDois.avif" alt="morango com leite e chocolate no ar." class="produto-image">
+                      <span class="produto-nome">Produto B</span>
+                      <span class="produto-categoria">Frutas</span>
+                      <span class="produto-preco">R$ 56,99 no Pix</span>
+                      <span class="produto-pagamento">ou 2x de R$ 29,99 sem juros</span>
+                  </div>
+  
+             
+                  <div class="produto-card">
+                      <img src="/img/produtoTres.avif" alt="melancia no ar" class="produto-image">
+                      <span class="produto-nome">Produto C</span>
+                      <span class="produto-categoria">Frutas</span>
+                      <span class="produto-preco">R$ 79,99 no Pix</span>
+                      <span class="produto-installments">ou 12x de R$ 49,99 sem juros</span>
+                  </div>
+  
+                  
+                  <div class="produto-card">
+                      <img src="/img/produtoQuatro.avif" alt="laranja no ar" class="produto-image">
+                      <span class="produto-nome">Produto D</span>
+                      <span class="produto-categoria">Frutas</span>
+                      <span class="produto-preco">R$ 219,99 no Pix</span>
+                      <span class="produto-pagamento">ou 6x de R$ 36,67 sem juros</span>
+                  </div>
+  
+                  <div class="produto-card">
+                      <img src="/img/produtoCinco.avif" alt="prato com uma comida saborosa" class="produto-image">
+                      <span class="produto-nome">Produto X</span>
+                      <span class="produto-categoria">Malasa</span>
+                      <span class="produto-preco">R$ 109,99 no Pix</span>
+                      <span class="produto-pagamento">ou 2x de R$ 59,99 sem juros</span>
+                  </div>
+  
+                 
+                  <div class="produto-card">
+                      <img src="/img/produtoSeis.avif" alt="prato com café da manha vegano" class="produto-image">
+                      <span class="produto-nome">Produto Y</span>
+                      <span class="produto-categoria">Óleo</span>
+                      <span class="produto-preco">R$ 189,99 no Pix</span>
+                      <span class="Produto-pagamento">ou 3x de R$ 63,33 sem juros</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+  
+  
+      <section class="banner">
+          <div class="banner-content">
+              <div class="left-content">
+                  <img src="/img/mercearia.webp" alt="mercearia produtos" class="banner-image">
+                  <div class="text-content">
+                      <h2 class="brand-title">PRODUTOS DE MERCEARIA</h2>
+                  </div>
+              </div>
+              <div class="right-content">
+                  <div class="info-desconto">
+                      <p>UTILIZE O CUPOM E GANHE:</p>
+                      <h3 class="desconto">20% <span>OFF</span></h3>
+                  </div>
+                  <div class="coupon-box">
+                      <p>CUPOM:</p>
+                      <p class="codigo-cupon">Mercearia20</p>
+                  </div>
+                  <button class="botao-comprar">Comprar</button>
+              </div>
+          </div>
+      </section>
+  
+      
+      <section class="banner">
+          <div class="banner-content">
+              <div class="left-content">
+                  <img src="/img/veganos.jpeg" alt="produtos veganos" class="banner-image">
+                  <div class="text-content">
+                      <p class="subtitulo">VEGANO, VEGETARIANO E ZERO AÇUCAR</p>
+                      <h2 class="titulo">COM VOCÊ</h2>
+                  </div>
+              </div>
+              <div class="right-content">
+                  <div class="info-desconto">
+                      <p>ATÉ</p>
+                      <h3 class="desconto">60% <span>OFF</span></h3>
+                  </div>
+                  <button class="botao-comprar">Comprar</button>
+              </div>
+          </div>
+      </section>
+  
+  
+      
+  
+      <footer class="footer">
+          <div class="footer-section">
+              <div>
+                  <h3>Formas de Pagamento</h3>
+                  <div class="payment-methods">
+                      <img src="/img/visa-electron-logo.webp" alt="Visa logo">
+                      <img src="/img/logo-da-bandeira-mastercard.png" alt="Mastercard logo">
+                      <img src="/img/Hipercard_logo.svg" alt="Hiper logo">
+                      <img src="/img/amex-logo.webp" alt="Amex logo">
+                      <img src="/img/boleto.png" alt="Boleto logo">
+                  </div>
+              </div>
+              <div>
+                  <h3>Formas de Entrega</h3>
+                  <div class="delivery-methods">
+                      <img src="/img/correios-logo.png" alt="Correios logo">
+                      <img src="/img/pac-correios-logo.png" alt="PAC logo">
+                      <img src="/img/Sedex-logo.png" alt="Sedex logo">
+                  </div>
+                  <div class="delivery-methods">
+                      <img src="/img/caminhão-logo.png" alt="caminhão de entrega icon" class="delivery-truck">
+                      <span>Sua transportadora</span>
+                  </div>
+              </div>
+              <div>
+                  <h3>Segurança e Certificação</h3>
+                  <img src="/img/BIS-png.png" alt="bis2bis e-commerce logo">
+              </div>
+              <div>
+                  <h3>Localização</h3>
+                  <div class="map-container">
+                     
+                      <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15018.63560063225!2d-44.26515787839888!3d-19.769641654393116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6ef004770a80d%3A0xd82e696dbb5eb9ff!2sRecantodaamizade!5e0!3m2!1spt-BR!2sbr!4v1723955837224!5m2!1spt-BR!2sbr"
+                          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+              </div>
+          </div>
+          <div class="text-center">
+              <p>EcoEssence | CNPJ: 29.240.690/0001-38 | Rua José Rosa, nº 68 - Brás - Zona Cerealista de São Paulo | Telefone: (11) 3569-0662 | Email: lojavirtual@ecoessence.com.br | <a href="#">Mapa do site</a></p>
+              <p>Hospedado por bis2bis | Crie sua loja virtual com a melhor empresa de e-commerce do Brasil.</p>
+          </div>
       </footer>
-   </body>
+      
+  
+  </body>
 </html>
