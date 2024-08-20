@@ -3,7 +3,7 @@
     --cornsilk: #FEFAE0;
     --alloy-orange: #C4661F;
     --lemon-meringue: #F9EBC7;
-    --camel: #5d4731;
+    --camel: #4b3d2f;
     --laurel-green: #A9B388;
 }
 
@@ -22,7 +22,7 @@ section {
 }
 .title-product {
     text-align: center;
-    color: var(--camel);
+    color: #2e271f;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -62,7 +62,7 @@ section {
     margin-top: .5rem;
     border: 0;
     background-color: rgb(236, 209, 101);
-    color: var(--camel);
+    color: #2e271f;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
@@ -87,7 +87,7 @@ section {
 .title-product-grao {
     padding-top: 2rem;
     text-align: center;
-    color: var(--camel);
+    color: #2e271f;
 }
 
 .produtos {
