@@ -1,0 +1,84 @@
+:root {
+    --color-details: #546022;
+    --color-price: green;  
+    --color-white: #fff;  
+    --color-gray: #ccc;
+    --bg-grao: #F9B572;
+}
+
+section {
+    max-width: 1200px;
+    margin: 3rem auto;  
+}
+
+.title-product {
+    text-align: center;
+    color: var(--color-details);
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}.produtos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 350px;
+    padding: 10px;
+    cursor: pointer;
+}.description-product p {
+    font-size: 1rem;
+    text-align: left;
+    width: 350px;
+    font-family: "Roboto", system-ui;
+    font-weight: 600;
+}.price {
+    color: var(--color-price);
+    font-weight: bold;
+}
+
+.btn-buy {
+    width: 100%;
+    padding: .25rem .5rem;
+    margin-top: .5rem;
+    border: 0;
+    background-color: var(--color-gray);
+    color: var(--color-details);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    transform: scale(0.98);
+}
+
+#cereais {
+    background-color: var(--bg-grao);
+    margin: 0 auto;
+}
+
+.cereais-section {
+    margin: 0 auto;
+}.title-product-grao {
+    padding-top: 2rem;
+    text-align: center;
+    color: var(--color-details);
+}
+
+.produtos {
+    margin-bottom: 2rem;
+}
+
+.img-graos {
+    width: 300px;
+}
+
+.btn-grao {
+    color: var(--color-details);
+    background-color: var(--color-white);
+}

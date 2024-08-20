@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Produtos</title>
+      <title>EcoEssence</title>
       <link
          rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -26,6 +26,8 @@
       <link rel="stylesheet" href="styles/global.css" />
       <link rel="stylesheet" href="styles/header.css" />
       <link rel="stylesheet" href="styles/footer.css" />
+      <link rel="stylesheet" href="styles/produto.css">
+      <link rel="icon" href="img/logo-editada.png" type="image/x-icon">
    </head>
    <body>
       <header>
@@ -62,52 +64,108 @@
          </div>
       </header>
       <main>
-         <section class="suplementos">
-            <h2>Suplementos</h2>
+         <section id="suplementos">
+            <h2 class="title-product">Suplementos</h2>
             <div class="container">
                <div class="produtos">
                   <img src="img/extratoCurcuma-img.webp" alt="" />
-                  <p>EXTRATO DE CÚRCUMA - 60 CÁPSULAS DE 300MG</p>
-                  <p>R$ 43,20</p>
+                  <div class="description-product">
+                     <p>Extrato de Cúrcuma - 60 cápsulas de 300mg</p>
+                     <p class="price">R$ 43,20</p>
+                  </div>
+                  <button class="btn-buy">Comprar</button>
                </div>
                <div class="produtos">
                   <img src="img/colageno-img.webp" alt="" />
-                  <p>COLÁGENO COM VIT. C - 180 CÁPSULAS DE 500MG</p>
-                  <p>R$ 56,00</p>
+                  <div class="description-product">
+                     <p>Colágeno com Vit. C - 180 cápsulas de 500mg</p>
+                     <p class="price">R$ 56,00</p>
+                  </div>
+                  <button class="btn-buy">Comprar</button>
                </div>
                <div class="produtos">
                   <img src="img/magnesio-img.webp" alt="" />
-                  <p>MAGNESIO DIMALATO - 120 CÁPSULAS DE 600MG</p>
-                  <p>R$ 48,80</p>
+                  <div class="description-product">
+                     <p>Magnesio Dimalato - 120 cápsulas de 600mg</p>
+                     <p class="price">R$ 48,80</p>
+                  </div>
+                  <button class="btn-buy">Comprar</button>
                </div>
             </div>
+         
          </section>
-         <section class="vitaminas">
+         <section id="vitaminas">
+            <h2 class="title-product">Vitaminas</h2>
             <div class="container">
-               <h2>Vitaminas</h2>
                <div class="produtos">
                   <img src="img/vitaminab12-img.png" alt="" />
-                  <p>Vitamina B12 Metilcobalamina 400mg - 60 Cápsulas Vegana</p>
-                  <p>R$ 34,88</p>
+                  <div class="description-product">
+                     <p>Vitamina B12 Metilcobalamina 400mg - 60 Cápsulas Vegana</p>
+                     <p class="price">R$ 34,88</p>
+                  </div>
+                  <button class="btn-buy">Comprar</button>
                </div>
                <div class="produtos">
                   <img src="img/vitaminad3-img.png" alt="" />
-                  <p>
-                     Vitamina D3 2.000UI Sistema Imunológico 60 Comprimidos Nutralin
-                  </p>
-                  <p>R$ 27,90</p>
+                  <div class="description-product">
+                     <p>
+                        Vitamina D3 2.000UI Sistema Imunológico 60 Comprimidos Nutralin
+                     </p>
+                     <p class="price">R$ 27,90</p>
+                  </div>
+                  <button class="btn-buy">Comprar</button>
                </div>
                <div class="produtos">
                   <img src="img/multivit-img.png" alt="" />
-                  <p>
-                     Multivitaminico 22 Vitaminas e Minerais A-Z Vegano 60 Capsulas
-                     Nutralin
-                  </p>
-                  <p>R$ 19,90</p>
+                  <div class="description-product">
+                     <p>
+                        Multivitaminico 22 Vitaminas e Minerais A-Z Vegano 60 Capsulas
+                        Nutralin
+                     </p>
+                     <p class="price">R$ 19,90</p>
+                  </div>
+                  <button class="btn-buy">Comprar</button>
                </div>
             </div>
          </section>
       </main>
+
+      <main id="cereais" >
+         <section class="cereais-section">
+            <h2 class="title-product-grao">Grãos</h2>
+            <div class="container">
+               <div class="produtos">
+                  <img class="img-graos" src="img/Flocos-aveia-bio.png" alt="" />
+                  <div class="description-product">
+                     <p>Aveia Integral - Rica em fibras, ideal para um café da manhã saudável.</p>
+                     <p class="price">R$12,50 / 500g</p>
+                  </div>
+                  <button class="btn-buy btn-grao">Comprar</button>
+               </div>
+               <div class="produtos">
+                  <img class="img-graos" src="img/Cevada-Natu-Qualy-Mariza-Torrada-e-Moida-s-cafeina_600x600_crop_center.webp" alt="" />
+                  <div class="description-product">
+                     <p>
+                        Cevada em Grãos - Excelente para preparar sopas e pães, com alto valor nutritivo.
+                     </p>
+                     <p class="price">R$8,75 / 500g</p>
+                  </div>
+                  <button class="btn-buy btn-grao">Comprar</button>
+               </div>
+               <div class="produtos">
+                  <img class="img-graos" src="img/img_500_1.png" alt="" />
+                  <div class="description-product">
+                     <p>
+                        Quinoa Branca - Fonte de proteína completa, perfeita para saladas e pratos nutritivos.
+                     </p>
+                     <p class="price">R$18,90 / 250g</p>
+                  </div>
+                  <button class="btn-buy btn-grao">Comprar</button>
+               </div>
+            </div>
+         </section>
+      </main>
+      
       <footer>
          <div class="container-footer">
             <div class="container-desc">
