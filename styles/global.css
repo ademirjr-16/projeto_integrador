@@ -13,6 +13,14 @@ li {
     cursor: pointer;
 }
 
+body {
+    background-color: #FEFAE0; 
+    color: #4A4A4A; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 
 .formulario {
     width: 50%;
@@ -20,7 +28,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+   
     padding: 3rem;
 }
 
