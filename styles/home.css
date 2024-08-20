@@ -1,0 +1,266 @@
+:root {
+    --dark-olive-green: #5F6F52;
+    --cornsilk: #FEFAE0;
+    --alloy-orange: #C4661F;
+    --lemon-meringue: #F9EBC7;
+    --camel: #B99470;
+    --laurel-green: #A9B388;
+    --russet: #783D19;
+}
+
+body {
+    background-color: #FEFAE0; 
+    color: #4A4A4A; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: cornsilk;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+}
+
+.category-image {
+    border-radius: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+    height: auto;
+}
+
+.category-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+.laranja {
+    background-color: #FFE5B4;
+}
+
+.vermelho{
+    background-color: #FFC0CB;
+}
+
+.amarelo {
+    background-color: #FFFACD;
+}
+
+.marrom {
+    background-color: #D2B48C;
+}
+
+
+
+.laranja-texto {
+    color: #FF4500;
+}
+
+.vermelho-texto {
+    color: #DC143C;
+}
+
+.amarelo-texto {
+    color: #FFD700;
+}
+
+.marrom-texto {
+    color: #8B4513;
+}
+
+
+
+.container {
+    max-width: 1024px; 
+    margin: 0 auto;
+    padding: 12px; 
+}
+
+.header-title {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-bottom: 16px; 
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; 
+    gap: 12px; 
+}
+
+.lado-esquerdo .image-container {
+    position: relative;
+}
+
+.tamanho-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.buy-button {
+    position: absolute;
+    bottom: 12px; /* Diminuído de 16px para 12px */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 6px 12px; /* Diminuído de 8px 16px para 6px 12px */
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+}
+
+.lado-direito {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Aumentado para 3 colunas para diminuir a largura de cada card */
+    gap: 12px; /* Diminuído de 16px para 12px */
+}
+
+.produto-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px; /* Diminuído de 16px para 12px */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produto-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 6px; /* Diminuído de 8px para 6px */
+}
+
+.produto-nome {
+    font-size: 0.75rem; /* Diminuído de 0.875rem para 0.75rem */
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.produto-categoria {
+    font-size: 0.75rem; /* Diminuído de 0.875rem para 0.75rem */
+    color: #808080;
+    margin-bottom: 6px; /* Diminuído de 8px para 6px */
+}
+
+.produto-preco {
+    font-size: 1rem; /* Diminuído de 1.125rem para 1rem */
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 4px;
+}
+
+.produto-pagamento {
+    font-size: 0.625rem; /* Diminuído de 0.75rem para 0.625rem */
+    color: #808080;
+}
+
+
+/*bannner*/
+
+
+.banner {
+    width: 100%;
+    padding: 1rem;
+}
+
+.banner-content {
+    background-color: var(--alloy-orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.banner-image {
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.text-content {
+    margin-left: 1rem;
+    color: var(--lemon-meringue);
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size: 1rem;
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+    background-color: var(--russet);
+    padding: 1.5rem;
+    color: var(--lemon-meringue);
+}
+
+.info-desconto {
+    text-align: right;
+    margin-right: 1.5rem;
+}
+
+.desconto {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.desconto span {
+    font-size: 1.5rem;
+}
+
+.coupon-box {
+    background-color: var(--camel);
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.codigo-cupon {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.botao-comprar {
+    margin-left: 1.5rem;
+    background-color: var(--laurel-green);
+    color: var(--dark-olive-green);
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-comprar:hover {
+    background-color: var(--dark-olive-green);
+    color: var(--cornsilk);
+}
