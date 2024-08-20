@@ -8,6 +8,26 @@
 }.img-logo {
     width: 100px;
 }
+
+nav {
+    background-color: #586148;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 16px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #FFCC00; /* Cor amarela */
+}
+
 .container-details {
     display: flex;
     align-items: center;
@@ -62,4 +82,9 @@ i {
 }.description p {
     width: 500px;
     margin-top: 2rem;
+}
+
+.categoria-header {
+    text-align: center;
+    margin: 1rem 0;
 }
