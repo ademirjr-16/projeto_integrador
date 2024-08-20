@@ -1,0 +1,29 @@
+footer {
+    background: var(--dark-olive-green);
+    color: var(--cornsilk);
+    padding: 2rem 1rem;
+    border-top: 3px solid var(--alloy-orange);
+  }
+  
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .container-desc {
+    max-width: 300px;
+  }
+  
+  .container-desc h3 {
+    color: var(--lemon-meringue);
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .container-desc p {
+    color: var(--cornsilk);
+    font-size: 0.9rem;
+  }

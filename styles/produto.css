@@ -1,19 +1,50 @@
 :root {
-    --color-details: #546022;
-    --color-price: green;  
-    --color-white: #fff;  
-    --color-gray: #ccc;
-    --bg-grao: #F9B572;
+    --dark-olive-green: #5F6F52;
+    --cornsilk: #FEFAE0;
+    --alloy-orange: #C4661F;
+    --lemon-meringue: #F9EBC7;
+    --camel: #5d4731;
+    --laurel-green: #A9B388;
 }
+
+body {
+    background-color: #FEFAE0; 
+    color: #4A4A4A; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 
 section {
     max-width: 1200px;
     margin: 3rem auto;  
 }
 
+nav {
+    background-color: #586148;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 16px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #FFCC00; /* Cor amarela */
+}
+
 .title-product {
     text-align: center;
-    color: var(--color-details);
+    color: var(--camel);
     font-family: "Montserrat", sans-serif;
 }
 
@@ -22,7 +53,9 @@ section {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-}.produtos{
+}
+
+.produtos{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -30,14 +63,18 @@ section {
     width: 350px;
     padding: 10px;
     cursor: pointer;
-}.description-product p {
+}
+
+.description-product p {
     font-size: 1rem;
     text-align: left;
     width: 350px;
     font-family: "Roboto", system-ui;
     font-weight: 600;
-}.price {
-    color: var(--color-price);
+}
+
+.price {
+    color: var(--camel);
     font-weight: bold;
 }
 
@@ -46,15 +83,18 @@ section {
     padding: .25rem .5rem;
     margin-top: .5rem;
     border: 0;
-    background-color: var(--color-gray);
-    color: var(--color-details);
+    background-color: rgb(236, 209, 101);
+    color: var(--camel);
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
 }
 
+
+
 .btn-buy:hover {
     transform: scale(0.98);
+    background-color: rgb(242, 202, 43);
 }
 
 #cereais {
@@ -64,10 +104,12 @@ section {
 
 .cereais-section {
     margin: 0 auto;
-}.title-product-grao {
+}
+
+.title-product-grao {
     padding-top: 2rem;
     text-align: center;
-    color: var(--color-details);
+    color: var(--camel);
 }
 
 .produtos {
@@ -79,6 +121,6 @@ section {
 }
 
 .btn-grao {
-    color: var(--color-details);
-    background-color: var(--color-white);
+    color: var(--camel);
+    background-color: var(--cornsilk);
 }
