@@ -126,6 +126,31 @@ body {
     color: #fff;
 }
 
+.texto-ajuda{
+    display: none;
+    font-size: 8.rem;
+    color: red;
+}
+
+/*Estilo dinamico*/
+
+input.error{
+    border: solid 2px red;
+    background-color: pink;
+    color: red;
+}
+
+input.correct{
+    border: solid 2px green;
+    background-color: greenyellow;
+    color: green;
+}
+
+.visable{
+    display: block;
+}
+
+
 @media screen and (max-width: 1330px) {
 
     .formulario {
